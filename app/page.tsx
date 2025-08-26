@@ -77,9 +77,6 @@ export default function LoginPage() {
           {loading ? "Logging in..." : "Login"}
         </Button>
       </form>
-      {error && (
-        <p className="text-red-500 text-sm mt-2 text-center">{error}</p>
-      )}
     </section>
   );
 }
